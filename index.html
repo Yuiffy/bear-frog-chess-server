@@ -19,7 +19,7 @@
 
     <script>
         var host = location.origin.replace(/^http/, 'ws');
-        host += "/foo";
+        host += "/bbb";
         var ws = new WebSocket(host);
         ws.onmessage = function (event) {
             var li = document.createElement('li');
