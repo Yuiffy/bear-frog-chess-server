@@ -5,7 +5,7 @@ var url = require("url");
 var express = require("express")
 const wssMap = require("./wssMap.js")
 var app = express()
-var port = process.env.PORT || 5000
+var port = process.env.PORT || 5001
 
 app.use(express.static(__dirname + "/"))
 
